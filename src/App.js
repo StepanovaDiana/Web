@@ -28,7 +28,7 @@ function App() {
       <div className="App">
           <Header />
           <Routes>
-              <Route index  path ={"testList"}element = {<TestList />}/>
+              <Route index element = {<TestList />}/>
               <Route path={'forma'} element = {<Form />}/>
               <Route path={'test1'} element = {<MeningocalInfection />}/>
               <Route path={'test2'} element = {<Page1 />}/>
@@ -39,6 +39,7 @@ function App() {
               <Route path={'test7'} element = {<Page6 />}/>
               <Route path={'test8'} element = {<Page7 />}/>
               <Route path={'test9'} element = {<Result />}/>
+              <Route path ={"testList"}element = {<TestList />}/>
 
           </Routes>
       </div>
