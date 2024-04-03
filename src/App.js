@@ -14,6 +14,7 @@ import Page4 from "./component/meningocalInfection/page4";
 import Page5 from "./component/meningocalInfection/page5";
 import Page6 from "./component/meningocalInfection/page6";
 import Page7 from "./component/meningocalInfection/page7";
+import Result from "./component/meningocalInfection/result";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
               <Route path={'test6'} element = {<Page5 />}/>
               <Route path={'test7'} element = {<Page6 />}/>
               <Route path={'test8'} element = {<Page7 />}/>
+              <Route path={'test9'} element = {<Result />}/>
 
           </Routes>
       </div>

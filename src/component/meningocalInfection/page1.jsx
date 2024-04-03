@@ -15,7 +15,7 @@ const Page1 = () => {
             <h3 className={'h3test'}>Преимущественная локализация сыпи:</h3>
 
             <div  className={'box'}>
-                <select  className={'select'}>
+                <select  className={'select'} >
                     <option value= "varOne"> На конечностях</option>
                     <option value= "varTwo"> На лице </option>
                     <option value="varThree"> На туловище </option>
