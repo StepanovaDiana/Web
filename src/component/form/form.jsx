@@ -43,6 +43,9 @@ const  Form = () => {
                 tg.MainButton.hide();
        } else {
                 tg.MainButton.show();
+                tg.MainButton.text="Отправить данные";
+                tg.MainButton.color="rgba(78, 183, 153, 1)";
+                tg.MainButton.textColor="#FFFFFF";
        }
 
     }, [surname, name, patronymic, email])
