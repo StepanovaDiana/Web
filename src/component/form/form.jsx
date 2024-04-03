@@ -1,5 +1,6 @@
 import React, {useCallback, useEffect, useState} from "react";
 import './form.css';
+import "inter-ui/inter.css";
 import {useT} from "../../hooks/useT";
 
 const  Form = () => {
