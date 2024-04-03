@@ -24,12 +24,14 @@ html { font-family: "Inter", "system-ui"; }
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 38px;
+    text-align: center;
+    width: 286px;
 }
 .h3{
     display: flex;
     color: #5e5e5e;
     font-size: 18px ;
-    width: 480px;
+    width: 450px;
 
     justify-content: center;
     margin-top: 40px;
