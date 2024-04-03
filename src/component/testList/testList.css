@@ -26,13 +26,13 @@ html { font-family: "Inter", "system-ui"; }
     margin-top: 38px;
     text-align: center;
     width: 286px;
+    margin-left: 58px;
 }
 .h3{
     display: flex;
     color: #5e5e5e;
     font-size: 18px ;
-    width: 450px;
-
+    width: 380px;
     justify-content: center;
     margin-top: 40px;
     margin-left: 18px
