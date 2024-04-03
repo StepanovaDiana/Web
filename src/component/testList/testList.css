@@ -31,11 +31,11 @@ html { font-family: "Inter", "system-ui"; }
 .h3{
     display: flex;
     color: #5e5e5e;
-    font-size: 20px ;
+    font-size: 18px ;
     width: 380px;
     justify-content: center;
-    margin-top: 40px;
-    margin-left: 30px
+    margin-top: 38px;
+    margin-left: 32px
 ;
 
 }
