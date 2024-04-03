@@ -29,10 +29,11 @@ html { font-family: "Inter", "system-ui"; }
     display: flex;
     color: #5e5e5e;
     font-size: 18px ;
-    flex-wrap: wrap;
+    width: 480px;
+
     justify-content: center;
     margin-top: 40px;
-    margin-left: 55px
+    margin-left: 18px
 ;
 
 }
