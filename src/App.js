@@ -28,7 +28,7 @@ function App() {
       <div className="App">
           <Header />
           <Routes>
-              <Route index element = {<TestList />}/>
+              <Route index  path ={"testList"}element = {<TestList />}/>
               <Route path={'forma'} element = {<Form />}/>
               <Route path={'test1'} element = {<MeningocalInfection />}/>
               <Route path={'test2'} element = {<Page1 />}/>
