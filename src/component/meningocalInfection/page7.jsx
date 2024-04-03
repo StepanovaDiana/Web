@@ -1,8 +1,8 @@
 import React from 'react';
 
 import "inter-ui/inter.css";
-import "./page2.css"
-const Page2 = () => {
+import "./page7.css"
+const Page7 = () => {
 
 
     return (
@@ -12,18 +12,17 @@ const Page2 = () => {
 
             <h2 className={'h2test'}>Продолжаем опрос симптомов</h2>
 
-            <h3 className={'h3test'}>Яркость сыпи:</h3>
+            <h3 className={'h3test'}>Менингеальные сиптомы:</h3>
 
             <div  className={'box'}>
                 <select  className={'select'}>
-                    <option value= "varOne"> Бледная</option>
-                    <option value= "varTwo"> Яркая </option>
-                    <option value="varThree"> Цианотичная </option>
+                    <option value= "varOne"> Нет или выражены слабо</option>
+                    <option value= "varTwo"> Выражены умеренно или резко </option>
 
                 </select>
                 <div  className={'list'}>
 
-                    <a href="/test4" className="but" id= "but" >Далее</a>
+                    <a href="/test9" className="but" id= "but" >Далее</a>
                 </div>
 
             </div>
@@ -35,6 +34,6 @@ const Page2 = () => {
 
 };
 
-export default Page2;
+export default Page7;
 
 
