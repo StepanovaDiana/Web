@@ -93,7 +93,7 @@ const  Form = () => {
                 value={patronymic}
                 onChange={onChangePatronymic}
             />
-            <select  value={age} onChange={onChangeAge} className={'select'}>
+            <select  value={age} onChange={onChangeAge} className={'selectForm'}>
                 <option value={'child'}>Ваш возраст меньше 18 лет </option>
                 <option value={'adult'}>Ваш возраст больше 18 лет </option>
             </select>

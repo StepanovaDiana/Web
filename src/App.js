@@ -8,6 +8,7 @@ import MeningocalInfection from "./component/meningocalInfection/meningocalInfec
 import TestList from "./component/testList/testList";
 import Form from "./component/form/form";
 import Page1 from "./component/meningocalInfection/page1";
+import Page2 from "./component/meningocalInfection/page2";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path={'forma'} element = {<Form />}/>
               <Route path={'test1'} element = {<MeningocalInfection />}/>
               <Route path={'test2'} element = {<Page1 />}/>
+              <Route path={'test3'} element = {<Page2 />}/>
 
           </Routes>
       </div>

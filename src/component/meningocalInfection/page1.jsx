@@ -24,7 +24,7 @@ const Page1 = () => {
                 </select>
                 <div  className={'list'}>
 
-                    <a href="#" className="but" id= "but" >Далее</a>
+                    <a href="/test3" className="but" id= "but" >Далее</a>
                 </div>
 
             </div>
