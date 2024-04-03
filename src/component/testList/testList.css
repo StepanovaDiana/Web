@@ -53,7 +53,7 @@ html { font-family: "Inter", "system-ui"; }
     position: relative;
     transition: background-color .6s ease;
     overflow: hidden;
-    width: 350px;
+    width: 340px;
     height: 54px;
 
     margin-bottom: 30px;
