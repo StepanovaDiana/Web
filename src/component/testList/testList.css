@@ -35,7 +35,7 @@ html { font-family: "Inter", "system-ui"; }
     width: 380px;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 38px
+    margin-left: 30px
 ;
 
 }
@@ -56,7 +56,7 @@ html { font-family: "Inter", "system-ui"; }
     width: 350px;
     height: 54px;
 
-    margin-bottom: 34px;
+    margin-bottom: 30px;
     border-width: 2px;
     border-style: solid;
     border-color: rgba(33, 153, 119, 1);
