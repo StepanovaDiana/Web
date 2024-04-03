@@ -20,13 +20,13 @@ html { font-family: "Inter", "system-ui"; }
 .h2{
     display: flex;
     color: #5e5e5e;
-    font-size: 22px ;
+    font-size: 24px ;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 38px;
     text-align: center;
     width: 286px;
-    margin-left: 58px;
+    margin-left: 50px;
 }
 .h3{
     display: flex;
@@ -35,7 +35,7 @@ html { font-family: "Inter", "system-ui"; }
     width: 380px;
     justify-content: center;
     margin-top: 40px;
-    margin-left: 18px
+    margin-left: 38px
 ;
 
 }
