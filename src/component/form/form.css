@@ -4,6 +4,12 @@ html { font-family: "Inter", "system-ui"; }
         font-family: "InterVariable", "system-ui";
     }
 }
+
+
+.h3Form{
+    display: flex;
+    color: #5e5e5e;
+}
 .form{
     display: flex;
     flex-direction: column;
@@ -20,5 +26,6 @@ html { font-family: "Inter", "system-ui"; }
 .selectForm {
     padding: 10px;
     margin-top: 15px;
+    color: #5e5e5e;
 
 }
