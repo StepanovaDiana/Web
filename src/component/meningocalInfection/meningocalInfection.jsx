@@ -4,7 +4,7 @@ import Select from "react-select";
 import "inter-ui/inter.css";
 import "./meningocalInfection.css"
 
-const customStyles = {
+/*const customStyles = {
     control: (provided) => ({
         ...provided,
         backgroundColor: "lightgray",
@@ -18,7 +18,7 @@ const customStyles = {
         color: state.isSelected ? "white" : "black",
         backgroundColor: state.isSelected ? "hotpink" : "white",
     }),
-};
+};*/
 
 const MeningocalInfection = () => {
 
@@ -69,7 +69,7 @@ const MeningocalInfection = () => {
             <h3 className={'h3test'}>Наличие и характер сыпи:</h3>
 
             <div  className={'box'}>
-                <select >
+                <select  className={'select'}>
                     <option value= "varOne"> Нет сыпи</option>
                     <option value= "varTwo"> Не геморрагическая</option>
                     <option value="varThree"> Геморрагическая мелкоточечная </option>
@@ -77,8 +77,13 @@ const MeningocalInfection = () => {
                     <option value= "varFive"> Геморрагическая звездчатая </option>
                     <option value= "varSix"> Геморрагическая сливная </option>
                 </select>
-
             </div>
+
+            <div  className={'list'}>
+
+            <a href="/test2" className="but" id= "but" >Далее</a>
+            </div>
+
         </div>
 
 

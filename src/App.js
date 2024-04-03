@@ -7,6 +7,7 @@ import {Route, Routes} from "react-router-dom";
 import MeningocalInfection from "./component/meningocalInfection/meningocalInfection";
 import TestList from "./component/testList/testList";
 import Form from "./component/form/form";
+import Page1 from "./component/meningocalInfection/page1";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               <Route index element = {<TestList />}/>
               <Route path={'forma'} element = {<Form />}/>
               <Route path={'test1'} element = {<MeningocalInfection />}/>
+              <Route path={'test2'} element = {<Page1 />}/>
 
           </Routes>
       </div>
