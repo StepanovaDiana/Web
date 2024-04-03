@@ -10,20 +10,22 @@ const Page1 = () => {
 
         <div className={'test'}>
 
-            <h2 className={'h2test'}>Оценка риска менинговой инфекции</h2>
+            <h2 className={'h2test'}>Продолжаем опрос симптомов</h2>
 
-            <h3 className={'h3test'}>Наличие и характер сыпи:</h3>
+            <h3 className={'h3test'}>Преимущественная локализация сыпи:</h3>
 
             <div  className={'box'}>
-                <select >
-                    <option value= "varOne"> Нет сыпи</option>
-                    <option value= "varTwo"> Не геморрагическая</option>
-                    <option value="varThree"> Геморрагическая мелкоточечная </option>
-                    <option value= "varFour"> Сочетание геморрагической и др.</option>
-                    <option value= "varFive"> Геморрагическая звездчатая </option>
-                    <option value= "varSix"> Геморрагическая сливная </option>
-                    <a href="#" className="button" id="button">Бронхиальная астма</a>
+                <select  className={'select'}>
+                    <option value= "varOne"> На конечностях</option>
+                    <option value= "varTwo"> На лице </option>
+                    <option value="varThree"> На туловище </option>
+                    <option value= "varFour"> Равномерно по телу</option>
+
                 </select>
+                <div  className={'list'}>
+
+                    <a href="#" className="but" id= "but" >Далее</a>
+                </div>
 
             </div>
         </div>

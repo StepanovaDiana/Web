@@ -36,12 +36,11 @@ html { font-family: "Inter", "system-ui"; }
     width: 372px;
     justify-content: center;
     margin-top: 38px;
-    margin-left: 10px
-;
+    margin-left: 10px;
 
 }
 
-select {
+.select {
     margin-top: 25px;
     padding-top: 10px;
     padding-left: 25px;
@@ -56,8 +55,6 @@ select {
     border-style: solid;
     border-color: rgba(33, 153, 119, 1);
     /* needed */
-
-
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -66,7 +63,25 @@ select {
     background-size: .6em;
     background-position: calc(100% - 1.3em) center;
     background-repeat: no-repeat;
-   
+
+}
+.but{
+    padding: 10px 15px;
+    margin-top: 150px;
+    margin-left: 70px;
+    border-radius: 500px;
+    background: rgba(78, 183, 153, 1);
+    color:  #FFFFFF;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+
+    text-decoration: none;
+    height: 50px;
+    letter-spacing: 1px;
 
 
 }
