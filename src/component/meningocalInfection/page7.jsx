@@ -12,7 +12,7 @@ const Page7 = () => {
 
             <h2 className={'h2test'}>Продолжаем опрос симптомов</h2>
 
-            <h3 className={'h3test'}>Менингеальные сиптомы:</h3>
+            <h3 className={'h3test'}>Менингеальные симптомы:</h3>
 
             <div  className={'box'}>
                 <select  className={'select'}>
