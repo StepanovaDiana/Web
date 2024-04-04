@@ -4,7 +4,7 @@ import "inter-ui/inter.css";
 import './testList.css';
 
 
-const  TestList = (props) => {
+const  TestList = () => {
 
 
 
