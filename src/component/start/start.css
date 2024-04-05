@@ -10,6 +10,25 @@
     justify-content:center;
 
 }
+.butForma{
+    padding: 10px 20px;
+    margin-top: 70px;
+    margin-left: 45px;
+    border-radius: 500px;
+    background: rgba(78, 183, 153, 1);
+    color:  #FFFFFF;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
 
 html { font-family: "Inter", "system-ui"; }
 @supports (font-variation-settings: normal) {
@@ -34,7 +53,7 @@ html { font-family: "Inter", "system-ui"; }
     width: 370px;
     justify-content:space-between;
     margin-top: 38px;
-    margin-left: -11px;
+    margin-left: -13px;
 
 }
 
@@ -65,8 +84,8 @@ html { font-family: "Inter", "system-ui"; }
 }
 .butStart{
     padding: 6px 12px;
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 45px;
     border-radius: 500px;
     background: rgba(78, 183, 153, 1);
     color:  #FFFFFF;
