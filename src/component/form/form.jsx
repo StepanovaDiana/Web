@@ -102,8 +102,8 @@ const  Form = () => {
                 onChange={onChangePatronymic}
             />
             <select  value={sex} onChange={onChangeSex} className={'selectForm'}>
-                <option value={'man'}>м </option>
-                <option value={'women'}>ж </option>
+                <option value={'man'}>Ваш пол мужской </option>
+                <option value={'women'}>Ваш пол женский </option>
             </select>
             <select  value={age} onChange={onChangeAge} className={'selectForm'}>
                 <option value={'child'}>Ваш возраст меньше 18 лет </option>
