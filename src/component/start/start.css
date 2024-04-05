@@ -12,7 +12,7 @@
 }
 .butForma{
     padding: 10px 20px;
-    margin-top: 70px;
+    margin-top: 45px;
     margin-left: 45px;
     border-radius: 500px;
     background: rgba(78, 183, 153, 1);
@@ -52,7 +52,7 @@ html { font-family: "Inter", "system-ui"; }
     text-align: center;
     width: 370px;
     justify-content:space-between;
-    margin-top: 38px;
+    margin-top: 20px;
     margin-left: -13px;
 
 }
