@@ -41,6 +41,7 @@ function App() {
               <Route path={'test8'} element = {<Page7 />}/>
               <Route path={'test9'} element = {<Result />}/>
               <Route path ={"testList"}element = {<TestList />}/>
+              <Route ipath ={"start"}element ={<Start />}/>
 
           </Routes>
       </div>
