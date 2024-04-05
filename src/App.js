@@ -15,6 +15,7 @@ import Page5 from "./component/meningocalInfection/page5";
 import Page6 from "./component/meningocalInfection/page6";
 import Page7 from "./component/meningocalInfection/page7";
 import Result from "./component/meningocalInfection/result";
+import Start from "./component/start/start";
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
       <div className="App">
           <Header />
           <Routes>
-              <Route index element = {<TestList />}/>
+              <Route index element = {<Start />}/>
               <Route path={'forma'} element = {<Form />}/>
               <Route path={'test1'} element = {<MeningocalInfection />}/>
               <Route path={'test2'} element = {<Page1 />}/>
