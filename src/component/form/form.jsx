@@ -8,6 +8,7 @@ const  Form = () => {
     const [surname, setSurname] = useState('');
     const [name, setName] = useState('');
     const [patronymic, setPatronymic] = useState('');
+    const [sex, setSEx] = useState('man');
     const [age, setAge] = useState('adult');
     const [email, setEmail] = useState('');
     const {tg} = useT();
@@ -64,6 +65,9 @@ const  Form = () => {
     const onChangeAge = (e) => {
         setAge(e.target.value)
     }
+    const onChangeSex = (e) => {
+        setAge(e.target.value)
+    }
 
     const onChangeEmail = (e) => {
         setEmail(e.target.value)
@@ -97,6 +101,10 @@ const  Form = () => {
                 value={patronymic}
                 onChange={onChangePatronymic}
             />
+            <select  value={sex} onChange={onChangeSex} className={'selectForm'}>
+                <option value={'man'}>м </option>
+                <option value={'women'}>ж </option>
+            </select>
             <select  value={age} onChange={onChangeAge} className={'selectForm'}>
                 <option value={'child'}>Ваш возраст меньше 18 лет </option>
                 <option value={'adult'}>Ваш возраст больше 18 лет </option>
